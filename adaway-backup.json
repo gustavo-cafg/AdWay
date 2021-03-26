@@ -1,0 +1,33 @@
+{
+    "sources": [
+        {
+            "label": "Hosts oficiales de AdAway",
+            "url": "https:\/\/adaway.org\/hosts.txt",
+            "enabled": true,
+            "allow": false,
+            "redirect": false
+        },
+        {
+            "label": "Pete Lowe blocklist hosts",
+            "url": "https:\/\/pgl.yoyo.org\/adservers\/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
+            "enabled": true,
+            "allow": false,
+            "redirect": false
+        },
+        {
+            "label": "StevenBlack Unified hosts",
+            "url": "https:\/\/raw.githubusercontent.com\/StevenBlack\/hosts\/master\/hosts",
+            "enabled": true,
+            "allow": false,
+            "redirect": false
+        }
+    ],
+    "blocked": [
+        {
+            "host": "basura",
+            "enabled": true
+        }
+    ],
+    "allowed": [],
+    "redirected": []
+}
